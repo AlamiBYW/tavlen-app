@@ -1,0 +1,27 @@
+$# Session file patran.ses.02 started recording at 23-Jul-26 14:56:49
+$# Build: 31.2.002054-7b1f5519 Thu Mar 05 16:36:23 CUT 2026
+$# Recorded by: Patran 2025.2  (Student Edition)
+uil_file_open.go( "C:\Users\lenovo\Downloads\TAVLEN Solutions\tavlen-app\t" // @
+"avlen.db" )
+$# Error reported in application APP by application Database
+$#     Database C:\Users\lenovo\Downloads\TAVLEN 
+$# Solutions\tavlen-app\tavlen.db is not a version 8 or newer format. It is 
+$# either pre-version 8, or not a valid Patran 2025.2  (Student Edition) 
+$# database. In order to open a V7.x or older database, Interbase must be 
+$# installed. Please contact your SystemPatran 2025.2  (Student Edition) 
+$# Support representative.
+$? NO 13000234 
+$# FLEXlm initialization complete.  Acquiring license(s)...
+$# License File: EDU
+$# Patran 2025.2  (Student Edition) has obtained 0 concurrent license(s) from 
+$# FLEXlm per a request to execute on Windows node DESKTOP-QECF508(
+$# 34415d47f4a5) (Windows 6.2 (Build 9200: Service Pack 0)) at 23-Jul-26 
+$# 14:57:03.
+$# Begin Reading RMB Menu definitions
+$# Done Reading RMB Menu definitions
+$# Loading dynamic library C:\Program 
+$# Files\MSC.Software\NaPa_SE\20252\Patran\bin\exe\loads_browser.dll
+$# MSC.SMDL shared library 'Loads Browser', Version 2025, Revision 3, Patch 0,
+$#  has been loaded for: MSC.Patran.
+uil_file_close.goquit(  )
+$# Session file patran.ses.02 stopped recording at 23-Jul-26 14:57:06
