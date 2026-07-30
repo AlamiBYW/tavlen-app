@@ -24,6 +24,7 @@ yarn-debug.log*
 yarn-error.log*
 
 # Local env files
+.env
 .env*.local
 
 # Vercel
@@ -35,9 +36,18 @@ next-env.d.ts
 
 # Database (keep local, will be recreated on server)
 tavlen.db
+tavlen.db-shm
+tavlen.db-wal
+
+# Uploads (persisted via volume on server)
+public/uploads/*
+!public/uploads/.gitkeep
 
 # Tunnel files
 pinggy_node.log
+pinggy.log
 tunnel.js
 
-.vercel
+# Patran files
+patran.ses.*
+patran_conf.ini
